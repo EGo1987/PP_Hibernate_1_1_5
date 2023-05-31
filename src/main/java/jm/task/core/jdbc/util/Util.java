@@ -14,17 +14,17 @@ import java.sql.SQLException;
 import java.util.Properties;
 
 public class Util {
-    private static final String DB_URL = "jdbc:mysql://localhost:3306/dbhiber";
-    private static final String DB_USERNAME = "root";
-    private static final String DB_PASSWORD = "R00T_Tdutybq_>hmtdbx";
-
+//    private static final String DB_URL = "jdbc:mysql://localhost:3306/dbhiber";
+//    private static final String DB_USERNAME = "root";
+//    private static final String DB_PASSWORD = "R00T_Tdutybq_>hmtdbx";
+//
     private static SessionFactory sessionFactory;
-
-    public static Connection getConnection() throws SQLException {
-        Connection connection;
-        connection = DriverManager.getConnection(DB_URL, DB_USERNAME, DB_PASSWORD);
-        return connection;
-    }
+//
+//    public static Connection getConnection() throws SQLException {
+//        Connection connection;
+//        connection = DriverManager.getConnection(DB_URL, DB_USERNAME, DB_PASSWORD);
+//        return connection;
+//    }
 
     public static SessionFactory getSessionFactory() {
         if (sessionFactory == null) {
